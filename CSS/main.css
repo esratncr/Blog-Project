@@ -1,0 +1,15 @@
+.mainContainer{
+    padding: 50px;
+    width: 100%;
+     min-height: calc(100vh - 75px);
+     display: flex;
+     gap: 10px;
+    
+}
+
+.leftSide{
+    flex: 1;
+    max-height: 40vh;
+  
+
+}
