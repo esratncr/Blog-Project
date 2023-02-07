@@ -1,0 +1,49 @@
+.blogDetailMainContainer {
+  width: 100%;
+  min-height: calc(100vh -75px);
+}
+
+.blogİmgContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  padding: 30px;
+}
+
+.blogİmgContainer img {
+  width: 50%;
+}
+.blogDetailTitle{
+   text-align: center;
+}
+.blogContentContainer{
+    padding: 30px 100px;
+}
+.blogContentContainer p{
+    padding: 5px 0px;
+}
+
+.author{
+   display: flex;
+ flex-direction: column;
+   align-items: flex-end;
+   margin: 20px 0px;
+}
+
+
+/*  break poins  */
+
+@media screen and (min-widht: 110) {
+  .blogİmgContainer img {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .blogİmgContainer {
+    padding: 15px;
+  }
+  .blogİmgContainer img {
+    width: 100%;
+  }
+}

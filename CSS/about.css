@@ -1,0 +1,17 @@
+.aboutMainContainer{
+    width: 100%;
+    min-height: calc(100vh - 75px );
+    background-color: lavender;
+}
+.aboutimgContainer img{
+    width: 150px;
+    height: 150px
+}
+
+.aboutDescritionContainer{
+    display: flex;
+    align-items: center ;
+}
+
+
+   
