@@ -2,6 +2,7 @@
     width: 100%;
     min-height: calc(100vh - 75px );
     background-color: lavender;
+    padding: 20px;
 }
 .aboutimgContainer img{
     width: 150px;
@@ -11,7 +12,31 @@
 .aboutDescritionContainer{
     display: flex;
     align-items: center ;
+    gap: 10px;
+    
+    background-color: aliceblue;
+    box-shadow: 4px 4px rgb(116, 142, 174);
+    
 }
 
+ .marginTop20{
+    margin-top: 10px;
+ }
 
-   
+
+ .aboutİnfoscontainer{
+    border: 1px solid;
+    margin:20px 0px ;
+    display: flex;
+ }
+
+ .aboutİnfosLeft{
+    width: 150px;
+    min-height: 300px;
+    border: 1px solid;
+
+ }
+
+ .aboutİnfosRight{
+
+ }
