@@ -25,9 +25,12 @@
 
 
  .aboutİnfoscontainer{
-    border: 1px solid;
+    
     margin:20px 0px ;
     display: flex;
+    gap: 20px;
+    background-color: aliceblue;
+    box-shadow: 4px 4px rgb(116, 142, 174);
  }
 
  .aboutİnfosLeft{
@@ -38,5 +41,9 @@
  }
 
  .aboutİnfosRight{
+    border: 1px solid;
+    flex: 1;
+    
+
 
  }
