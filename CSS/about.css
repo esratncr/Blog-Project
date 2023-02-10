@@ -1,49 +1,62 @@
-.aboutMainContainer{
-    width: 100%;
-    min-height: calc(100vh - 75px );
-    background-color: lavender;
-    padding: 20px;
+.aboutMainContainer {
+  width: 100%;
+  min-height: calc(100vh - 75px);
+  background-color: lavender;
+  padding: 20px;
 }
-.aboutimgContainer img{
-    width: 150px;
-    height: 150px
-}
-
-.aboutDescritionContainer{
-    display: flex;
-    align-items: center ;
-    gap: 10px;
-    
-    background-color: aliceblue;
-    box-shadow: 4px 4px rgb(116, 142, 174);
-    
+.aboutimgContainer img {
+  width: 150px;
+  height: 150px;
 }
 
- .marginTop20{
-    margin-top: 10px;
- }
+.aboutDescritionContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 
+  background-color: aliceblue;
+  box-shadow: 4px 4px rgb(116, 142, 174);
+}
 
- .aboutİnfoscontainer{
-    
-    margin:20px 0px ;
-    display: flex;
-    gap: 20px;
-    background-color: aliceblue;
-    box-shadow: 4px 4px rgb(116, 142, 174);
- }
+.marginTop20 {
+  margin-top: 10px;
+}
 
- .aboutİnfosLeft{
-    width: 150px;
-    min-height: 300px;
-    border: 1px solid;
+.aboutİnfoscontainer {
+  margin: 20px 0px;
+  display: flex;
+  gap: 20px;
+  background-color: aliceblue;
+  box-shadow: 4px 4px rgb(116, 142, 174);
+}
 
- }
+.aboutİnfosLeft {
+  width: 150px;
+  min-height: 300px;
+}
 
- .aboutİnfosRight{
-    border: 1px solid;
-    flex: 1;
-    
+.aboutİnfosRight {
+  border: 1px solid;
+  flex: 1;
+  padding: 10px;
+ display: flex;
+ flex-direction: column;
 
+}
+.aboutİnfosLeftİtem {
+  display: flex;
+  gap: 8px;
+  padding: 10px 10px;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
 
- }
+.aboutİnfosLeftİtem span {
+  font-size: 15px;
+}
+
+.projectCardMainContainer{
+  
+   border: 1px solid;
+}
