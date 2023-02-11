@@ -33,15 +33,17 @@
 .aboutİnfosLeft {
   width: 150px;
   min-height: 300px;
+  
 }
 
 .aboutİnfosRight {
-  border: 1px solid;
-  flex: 1;
-  padding: 10px;
- display: flex;
- flex-direction: column;
-
+width: 100%;  
+padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+ 
 }
 .aboutİnfosLeftİtem {
   display: flex;
@@ -56,7 +58,46 @@
   font-size: 15px;
 }
 
-.projectCardMainContainer{
-  
-   border: 1px solid;
+.projectCardMainContainer {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+ 
+
+}
+
+.projectCartContainer {
+  border: 1px solid;
+  width: 200px;
+  background-color: rgb(202, 215, 244);
+  border-radius: 5px;
+}
+.projectCartContainerimg img {
+  width: 100%;
+  height: 100%;
+}
+.projectCartContainerTitle {
+  padding: 15px;
+  text-align: center;
+}
+
+.projectCartContainerText {
+  padding: 10px;
+}
+
+.projectCartContainerLnik {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.projectCartContainerLnik a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid;
+  padding: 5px 5px;
+  transition: all 0.2s linear;
+}
+.projectCartContainerLnik a:hover {
+  background-color: rgb(58, 102, 184);
+  color: #fff;
 }
