@@ -33,6 +33,7 @@
 .aboutİnfosLeft {
   width: 150px;
   min-height: 300px;
+ 
   
 }
 
@@ -52,6 +53,7 @@ padding: 10px;
   align-items: center;
   text-decoration: none;
   color: black;
+  border-bottom: 1px solid #cccc ;
 }
 
 .aboutİnfosLeftİtem span {
